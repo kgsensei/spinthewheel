@@ -113,6 +113,7 @@ body {
     border: var(--themeColor) 2px solid;
     opacity: 0;
     transition: opacity 125ms;
+    user-select: none;
 }
 
 .opt:hover .opt-remove {
