@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div id="pointer"></div>
+        <div id="wheel"></div>
+        <div id="controlPanel">
+            <div class="sidebyside-container mb">
+                <button class="sidebyside-btn">simple</button>
+                <button class="sidebyside-btn" style="color:#757575;">advanced</button>
+            </div>
+            <div id="options"></div>
+            <button class="standalone-btn mt" onclick="addItem()">add option</button>
+            <button class="standalone-btn mt" onclick="spinWheel()">spin</button>
+        </div>
+        <div id="winning-background">
+            <div id="winning-popup">
+                <div id="winner"></div>
+                <div class="continue-options sidebyside-container">
+                    <button class="sidebyside-btn" id="removeAndContinue">Remove & Continue</button>
+                    <button class="sidebyside-btn" onclick="hideWinner()">Continue</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
